@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Ahmad Galih Irwanto — Web Developer & IT Enthusiast, mahasiswa Sistem Teknologi Informasi UMKO.">
+  <meta name="theme-color" content="#3568ED">
+  <title>Ahmad Galih Irwanto — Web Developer & IT Enthusiast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="header" id="top">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#home">GALIH<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-dark nav-cv" href="assets/CV.pdf" download="CV-Ahmad-Galih-Irwanto.pdf" data-cv>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Download CV
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="pill"><i></i> INFORMATION TECHNOLOGY STUDENT</span>
+          <h1>Hello, I'm<br>Ahmad Galih <span>Irwanto.</span></h1>
+          <p class="hero-role">Web Developer &amp; IT Enthusiast</p>
+          <p class="hero-desc">Saya mahasiswa Sistem Teknologi Informasi di Universitas Muhammadiyah Kotabumi (UMKO) yang tertarik pada pengembangan web, pengelolaan data, dan teknologi digital.</p>
+          <div class="hero-actions">
+            <a class="btn btn-blue" href="#projects">Explore My Work
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0l-6-6m6 6l-6 6"/></svg></a>
+            <a class="btn btn-outline" href="assets/CV.pdf" download="CV-Ahmad-Galih-Irwanto.pdf" data-cv>Download CV
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg></a>
+          </div>
+          <div class="socials">
+            <!-- Isi href dengan link GitHub/LinkedIn kamu, lalu hapus atribut hidden -->
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub" hidden data-social>
+              <svg viewBox="0 0 24 24"><path d="M12 .5C5.650.5.500 5.650.500 12c0 5.080 3.290 9.390 7.860 10.910.58.110.790-.250.790-.560v-2c-3.200.700-3.870-1.540-3.870-1.540-.520-1.330-1.280-1.690-1.280-1.690-1.040-.710.080-.700.080-.700 1.150.080 1.760 1.180 1.760 1.180 1.030 1.760 2.690 1.250 3.350.960.100-.740.400-1.250.730-1.540-2.560-.290-5.250-1.280-5.250-5.700 0-1.260.450-2.290 1.180-3.100-.120-.290-.510-1.470.110-3.060 0 0 .970-.310 3.170 1.180a11 11 0 015.780 0c2.200-1.490 3.170-1.180 3.170-1.180.630 1.590.230 2.770.110 3.060.740.810 1.180 1.840 1.180 3.100 0 4.430-2.700 5.400-5.270 5.690.410.360.780 1.060.780 2.140v3.170c0 .310.210.680.800.560A11.510 11.510 0 0023.500 12C23.500 5.650 18.350.5 12 .5z"/></svg></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn" hidden data-social>
+              <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9.5h4V21H3zM9.5 9.5h3.800v1.600h.1c.5-1 1.800-1.900 3.700-1.900 4 0 4.700 2.600 4.700 6V21h-4v-5.100c0-1.200 0-2.800-1.700-2.800s-2 1.300-2 2.700V21h-4z"/></svg></a>
+            <a href="mailto:emailkamu@example.com" aria-label="Email">
+              <svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1zm1.500 2l7.500 5.500L19.500 7z"/></svg></a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <span class="orbit" aria-hidden="true"></span>
+          <span class="deco deco-sq1" aria-hidden="true"></span>
+          <span class="deco deco-sq2" aria-hidden="true"></span>
+          <svg class="deco deco-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c.8 6.500 5.500 11.200 12 12-6.500.8-11.200 5.500-12 12-.8-6.500-5.500-11.200-12-12 6.500-.8 11.200-5.500 12-12z"/></svg>
+          <div class="photo-panel"></div>
+          <div class="photo-card">
+            <img src="assets/foto-profil.jpg" alt="Foto profil Ahmad Galih Irwanto" width="1000" height="1131">
+          </div>
+          <div class="chip chip-loc">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 00-7 7c0 5.200 7 13 7 13s7-7.800 7-13a7 7 0 00-7-7zm0 9.500A2.500 2.500 0 1112 6.500a2.500 2.500 0 010 5z"/></svg>
+            Based in Indonesia
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <span class="kicker"><i></i> About Me</span>
+          <h2>A little about me.</h2>
+          <p>Saya adalah mahasiswa Sistem Teknologi Informasi di Universitas Muhammadiyah Kotabumi (UMKO). Saya memiliki ketertarikan pada pengembangan web, pengelolaan database, dan sistem informasi.</p>
+          <p>Saya terus belajar lewat perkuliahan dan pengerjaan proyek, dengan tujuan membangun solusi digital yang fungsional, mudah digunakan, dan bermanfaat.</p>
+          <div class="facts">
+            <div>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3L1 9l11 6 9-4.900V17h2V9L12 3zM5 13.200v4l7 3.800 7-3.800v-4l-7 3.800-7-3.800z"/></svg>
+              <span><small>Education</small><b>UMKO</b><em>Sistem Teknologi Informasi</em></span>
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="stroke"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+              <span><small>Focus</small><b>Web Development</b><em>&amp; Sistem Informasi</em></span>
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="stroke"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.500"/></svg>
+              <span><small>Interest</small><b>Teknologi Digital</b><em>&amp; Pengelolaan Data</em></span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal" aria-hidden="true">
+          <div class="workspace">
+            <div class="ws-lamp"></div>
+            <div class="ws-plant"></div>
+            <div class="ws-laptop">
+              <div class="ws-screen">
+                <div class="ws-bar"><i></i><i></i><i></i></div>
+                <div class="ws-code">
+                  <span style="width:46%" class="c1"></span><span style="width:70%" class="c2"></span><span style="width:38%" class="c3"></span>
+                  <span style="width:62%" class="c2"></span><span style="width:30%" class="c1"></span><span style="width:54%" class="c3"></span>
+                  <span style="width:42%" class="c2"></span><span style="width:66%" class="c1"></span>
+                </div>
+              </div>
+              <div class="ws-base"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="center-head reveal">
+          <span class="kicker"><i></i> My Skills</span>
+          <h2>Technologies I Use.</h2>
+          <p>Teknologi yang saya pelajari dan gunakan dalam pengerjaan proyek.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="24" rx="22" ry="13" fill="#777BB3"/><text x="24" y="29" text-anchor="middle" font-family="Arial" font-weight="700" font-size="15" fill="#fff">php</text></svg><h3>PHP</h3><p>Backend</p></article>
+          <article class="skill reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 4h34l-3 33-14 7-14-7z" fill="#E44D26"/><path d="M24 7v34l11-5.500 2.500-27.500z" fill="#F16529"/><text x="24" y="29" text-anchor="middle" font-family="Arial" font-weight="800" font-size="17" fill="#fff">5</text></svg><h3>HTML</h3><p>Struktur halaman</p></article>
+          <article class="skill reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 4h34l-3 33-14 7-14-7z" fill="#1572B6"/><path d="M24 7v34l11-5.500 2.500-27.500z" fill="#33A9DC"/><text x="24" y="29" text-anchor="middle" font-family="Arial" font-weight="800" font-size="17" fill="#fff">3</text></svg><h3>CSS</h3><p>Styling &amp; layout</p></article>
+          <article class="skill reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="4" y="4" width="40" height="40" rx="4" fill="#F7DF1E"/><text x="38" y="38" text-anchor="end" font-family="Arial" font-weight="800" font-size="20" fill="#222">JS</text></svg><h3>JavaScript</h3><p>Interaksi web</p></article>
+          <article class="skill reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="10" rx="16" ry="6" fill="#00758F"/><path d="M8 10v26c0 3.300 7.200 6 16 6s16-2.700 16-6V10c0 3.300-7.200 6-16 6S8 13.300 8 10z" fill="#F29111"/><path d="M8 10v10c0 3.300 7.200 6 16 6s16-2.700 16-6V10c0 3.300-7.200 6-16 6S8 13.300 8 10z" fill="#00758F" opacity=".85"/></svg><h3>MySQL</h3><p>Database</p></article>
+          <article class="skill reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M26 2c1 7-4 9-7 14-3 4.500-3 9 0 12-1-4 1-6 3-8-1 5 2 7 4 5 2 3 0 6-3 7 7 0 13-5 11-12-1-6-6-8-8-18z" fill="#EE4623"/><path d="M17 30c-5 3-4 11 4 14 8 2 15-3 14-10-3 4-8 5-12 3-3-1-4-4-6-7z" fill="#DD3E1F"/></svg><h3>CodeIgniter 4</h3><p>PHP framework</p></article>
+          <article class="skill reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="#21759B"/><text x="24" y="33" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="26" fill="#fff">W</text></svg><h3>WordPress</h3><p>CMS</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="center-head reveal">
+          <span class="kicker"><i></i> Projects</span>
+          <h2>Selected Work.</h2>
+          <p>Tiga proyek yang menjadi bagian dari proses belajar dan pengembangan kemampuan saya.</p>
+        </div>
+        <div class="project-grid">
+
+          <article class="project reveal">
+          <div class="p-visual v-clinic">
+            <span class="p-num">01</span>
+            <img class="p-shot" src="assets/foto-web-klinik-gigi.png"
+                alt="Tampilan Sistem Informasi Klinik Gigi Senyum Sehat" loading="lazy">
+          </div>
+            <div class="p-info">
+              <span class="p-tag">Sistem Informasi</span>
+              <h3>Sistem Informasi Klinik Gigi Senyum Sehat</h3>
+              <p>Sistem informasi untuk mendukung pengelolaan data dan aktivitas operasional klinik gigi.</p>
+              <div class="tags"><span>PHP</span><span>CodeIgniter 4</span><span>MySQL</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+          <div class="p-visual v-pharmacy">
+            <span class="p-num">02</span>
+            <img class="p-shot" src="assets/foto-apotek.png"
+                alt="Tampilan Sistem Informasi Manajemen Apotek" loading="lazy">
+          </div>
+            <div class="p-info">
+              <span class="p-tag">Sistem Informasi</span>
+              <h3>Sistem Informasi Manajemen Apotek</h3>
+              <p>Aplikasi pengelolaan data obat, supplier, dan konsumen untuk membantu pencatatan informasi apotek.</p>
+              <div class="tags"><span>Manajemen Data</span><span>MySQL</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="p-visual v-pharmacy">
+            <span class="p-num">03</span>
+            <img class="p-shot" src="assets/foto-ecomers-gaming.png"
+                alt="Tampilan Sistem Informasi Manajemen Apotek" loading="lazy">
+          </div>
+            <div class="p-info">
+              <span class="p-tag">E-Commerce</span>
+              <h3>E-Commerce Alat Gaming</h3>
+              <p>Website toko online untuk penjualan perangkat dan aksesori gaming.</p>
+              <div class="tags"><span>PHP</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span></div>
+            </div>
+          </article>
+
+        </div>
+        <p class="note">Ilustrasi di atas adalah mockup tampilan, bukan screenshot aplikasi asli.</p>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section education" id="education">
+      <div class="container edu-grid">
+        <div class="edu-head reveal">
+          <span class="kicker"><i></i> Education</span>
+          <h2>Academic Journey.</h2>
+          <p>Pendidikan yang sedang saya tempuh untuk membangun dasar kemampuan di bidang teknologi informasi.</p>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3L1 9l11 6 9-4.900V17h2V9L12 3zM5 13.200v4l7 3.800 7-3.800v-4l-7 3.800-7-3.800z"/></svg></div>
+          <div>
+            <span class="p-tag">Pendidikan Tinggi</span>
+            <h3>Universitas Muhammadiyah Kotabumi (UMKO)</h3>
+            <p class="edu-major">Sistem Teknologi Informasi</p>
+            <span class="badge">Mahasiswa Aktif</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <span class="circle c-a" aria-hidden="true"></span><span class="circle c-b" aria-hidden="true"></span>
+          <div class="contact-text">
+            <span class="kicker light"><i></i> Contact</span>
+            <h2>Let's build something<br>great together.</h2>
+            <p>Terbuka untuk berdiskusi, berkolaborasi, dan menjajaki peluang baru di bidang teknologi informasi.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-white" href="mailto:emailkamu@example.com">Kirim Email
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0l-6-6m6 6l-6 6"/></svg></a>
+            <a class="btn btn-ghost" href="assets/CV.pdf" download="CV-Ahmad-Galih-Irwanto.pdf" data-cv>Download CV
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">GALIH<span>.</span></a>
+      <p>Ahmad Galih Irwanto — Web Developer &amp; IT Enthusiast</p>
+      <span>© <span id="year">2026</span> Ahmad Galih Irwanto. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Kembali ke atas">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
